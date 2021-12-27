@@ -1,4 +1,4 @@
-@animation: SLIDE_LEFT 1s ease 0s 1 normal forwards;
+animation: SLIDE_LEFT 1s ease 0s 1 normal forwards;
 @keyframes SLIDE_LEFT {
   0% {
     opacity: 0;
