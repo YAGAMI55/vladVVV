@@ -1,0 +1,13 @@
+@animation: SLIDE_LEFT 1s ease 0s 1 normal forwards;
+@keyframes SLIDE_LEFT {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.SLIDE_LEFT{-webkit-animation-name:SLIDE_LEFT;animation-name:SLIDE_LEFT}
